@@ -24,11 +24,11 @@ public class HomeController {
         return "show-form";
     }
 
-    @RequestMapping("/showForm")
+/*    @RequestMapping("/showForm")
     public String showForm(Model theModel){
         theModel.addAttribute("customer",new Customer());
-        return "custmer";
-    }
+        return "customer-confirm";
+    }*/
 
 
     @RequestMapping("/processForm")

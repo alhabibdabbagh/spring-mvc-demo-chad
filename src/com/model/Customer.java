@@ -10,12 +10,12 @@ import javax.validation.constraints.Size;
  */
 public class Customer {
 
-    @NotNull(message="is required")
-    @Size(min=1)
+    @NotNull
+    @Size(min=10,message="is required")
     private String firstName;
-    @NotNull(message="is required")
-    @Size(min=1)
-    private String lastNmae;
+    @NotNull
+    @Size(min=10,message="is required")
+    private String lastName;
     private String Language ;
 
     public String getFirstName() {
@@ -26,12 +26,12 @@ public class Customer {
         this.firstName = firstName;
     }
 
-    public String getLastNmae() {
-        return lastNmae;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLastNmae(String lastNmae) {
-        this.lastNmae = lastNmae;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getLanguage() {

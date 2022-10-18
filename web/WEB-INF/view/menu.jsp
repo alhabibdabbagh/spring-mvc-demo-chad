@@ -14,6 +14,6 @@
 HELLO , Again
 <a href="showform">  go to show form  </a>
 <br><br>
-<a href="/home/showForm">  go to show form Customer  </a>
+<a href="/spring_mvc_demo_firstt/customer/showForm">  go to show form Customer  </a>
 </body>
 </html>
