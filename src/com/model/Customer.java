@@ -1,12 +1,20 @@
 package com.model;
 
+
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 /**
  * @author Habib
  * @on 10/17/22 - 11:05 AM
  */
 public class Customer {
 
+    @NotNull(message="is required")
+    @Size(min=1)
     private String firstName;
+    @NotNull(message="is required")
+    @Size(min=1)
     private String lastNmae;
     private String Language ;
 

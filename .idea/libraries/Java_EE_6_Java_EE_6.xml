@@ -10,6 +10,13 @@
       <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-validator-6.2.4.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-validator-annotation-processor-6.2.4.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-validator-cdi-6.2.4.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.el-3.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.validation-api-2.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/classmate-1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jboss-logging-3.4.1.Final.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -8,11 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>first page wlcome</title>
   </head>
   <body>
   Hello
-  <a href="/spring_mvc_demo_firstt/home"> go to Menu   </a>
+  <a href="/spring_mvc_demo_firstt/home/showpage"> go to Menu   </a>
 
   </body>
 </html>
