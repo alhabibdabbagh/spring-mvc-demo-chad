@@ -25,10 +25,14 @@
 <form:form action="processForm" modelAttribute="customer">
 
     First Name :  <form:input path="firstName" ></form:input>
+    <br><br>
     last Name :  <form:input path="lastName"  />
     <form:errors path="lastName" cssClass="error"/>
     <br><br>
-
+    <br><br>
+     Age :  <c:input path="age"/>
+    <c:errors path="age" cssClass="error"/>
+    <br><br>
     <input type="submit" name="submit" value="submit"/>
 
 

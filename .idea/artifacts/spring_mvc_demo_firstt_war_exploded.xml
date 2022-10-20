@@ -10,6 +10,9 @@
         <element id="directory" name="lib">
           <element id="library" level="application" name="Spring-5.2.3.RELEASE" />
           <element id="library" level="application" name="Spring MVC-5.2.3.RELEASE" />
+          <element id="library" level="project" name="javax.el-3.0.1-b08" />
+          <element id="library" level="project" name="validation-api-2.0.0.Final" />
+          <element id="library" level="project" name="validation-api-2.0.0.Final1" />
         </element>
       </element>
     </root>
