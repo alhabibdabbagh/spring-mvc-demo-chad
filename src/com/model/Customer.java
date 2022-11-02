@@ -1,10 +1,7 @@
 package com.model;
 
 
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 
 /**
  * @author Habib
@@ -23,6 +20,17 @@ public class Customer {
     @Max(value = 10,message=" can't be up 10 or equal ")
     private int age;
     private String Language ;
+    @Pattern(regexp = "^[a-zA-Z0-9]{5}",message = "only 5 chars")
+    private String postalCode;
+
+
+    public String getPostalCode() {
+        return postalCode;
+    }
+
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
+    }
 
     public int getAge() {
         return age;

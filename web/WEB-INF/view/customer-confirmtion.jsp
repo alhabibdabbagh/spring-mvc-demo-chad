@@ -16,5 +16,8 @@ the Customer Name's : ${customer.firstName}
 the Customer Last Name's : ${customer.lastName}
 <br>
 the Customer age's : ${customer.age}
+
+<br>
+ Postal code : ${customer.postalCode}
 </body>
 </html>

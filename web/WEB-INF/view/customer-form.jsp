@@ -33,6 +33,10 @@
      Age :  <c:input path="age"/>
     <c:errors path="age" cssClass="error"/>
     <br><br>
+
+    Postal Code :  <c:input path="postalCode"/>
+    <c:errors path="postalCode" cssClass="error"/>
+    <br><br>
     <input type="submit" name="submit" value="submit"/>
 
 
